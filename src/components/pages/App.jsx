@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../static/MoedaEfesto.png';
 import './App.css';
 
 function App() {
@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Em breve um verdadeiro Jardim de artesões
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ansuzsolucoes.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Desenvolvido por Ansuz Soluções
         </a>
       </header>
     </div>
