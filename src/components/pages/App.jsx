@@ -4,6 +4,7 @@ import Home from './Home';
 import EmBreve from './EmBreve';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -11,12 +12,12 @@ import {
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <div>
         <nav>
           <ul>
             <li>
-              <Link to="/jardimdeefesto/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
           </ul>
         </nav>
@@ -24,20 +25,15 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-        <Route path="/jardimdeefesto/home">
-            <Home />
-          </Route><Route path="/home">
+        <Route path="/home">
             <Home />
           </Route>
           <Route path="/">
             <EmBreve />
           </Route>
-          <Route path="/jardimdeefesto">
-            <EmBreve />
-          </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
