@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Home';
 import EmBreve from './EmBreve';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   HashRouter,
   Switch,
   Route,
@@ -30,6 +30,9 @@ function App() {
           </Route>
           <Route path="/">
             <EmBreve />
+          </Route>
+          <Route path="*">
+            <Home />
           </Route>
         </Switch>
       </div>

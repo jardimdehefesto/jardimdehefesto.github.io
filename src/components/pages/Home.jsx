@@ -1,6 +1,5 @@
 import './Home.css';
-import { Grid, Container } from '@material-ui/core'
-import Header from '../Header'
+import { Container } from '@material-ui/core'
 import Footer from '../Footer'
 
 function Home() {
@@ -13,26 +12,25 @@ function Home() {
     {id: 6, title: 'Titulo Teste6', content: 'Welcome to the jungle baby6'},
   ]
   const barracas = (
-    <Grid className="conteudo-barraca" item xs>
+    <>
       {informacaBarraca.map((barraca)=>
-        <div key={barraca.id}>
+        <div className="grid-item" key={barraca.id}>
           {barraca.title}<br/>
           {barraca.content}
         </div>
       )}
-    </Grid>
+    </>
   )
   return (
     <div className="Home">
-      <Header />
       <Container>
-        <Grid 
+        <div 
         
-        className="barraca"
+        className="grid-container"
         
         >
             {barracas}
-        </Grid>
+        </div>
       </Container>
       <Footer />
     </div>
