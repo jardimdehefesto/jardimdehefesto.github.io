@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jardimdeefesto/static/css/main.d712ad0b.chunk.css",
-    "main.js": "/jardimdeefesto/static/js/main.4efb26c0.chunk.js",
-    "main.js.map": "/jardimdeefesto/static/js/main.4efb26c0.chunk.js.map",
-    "runtime-main.js": "/jardimdeefesto/static/js/runtime-main.65920b3a.js",
-    "runtime-main.js.map": "/jardimdeefesto/static/js/runtime-main.65920b3a.js.map",
-    "static/js/2.dd5b318e.chunk.js": "/jardimdeefesto/static/js/2.dd5b318e.chunk.js",
-    "static/js/2.dd5b318e.chunk.js.map": "/jardimdeefesto/static/js/2.dd5b318e.chunk.js.map",
-    "static/js/3.0f69c55a.chunk.js": "/jardimdeefesto/static/js/3.0f69c55a.chunk.js",
-    "static/js/3.0f69c55a.chunk.js.map": "/jardimdeefesto/static/js/3.0f69c55a.chunk.js.map",
+    "main.css": "/jardimdeefesto/static/css/main.1865e79b.chunk.css",
+    "main.js": "/jardimdeefesto/static/js/main.7defba05.chunk.js",
+    "main.js.map": "/jardimdeefesto/static/js/main.7defba05.chunk.js.map",
+    "runtime-main.js": "/jardimdeefesto/static/js/runtime-main.72e93c74.js",
+    "runtime-main.js.map": "/jardimdeefesto/static/js/runtime-main.72e93c74.js.map",
+    "static/js/2.84b7f897.chunk.js": "/jardimdeefesto/static/js/2.84b7f897.chunk.js",
+    "static/js/2.84b7f897.chunk.js.map": "/jardimdeefesto/static/js/2.84b7f897.chunk.js.map",
+    "static/js/3.bd6f9264.chunk.js": "/jardimdeefesto/static/js/3.bd6f9264.chunk.js",
+    "static/js/3.bd6f9264.chunk.js.map": "/jardimdeefesto/static/js/3.bd6f9264.chunk.js.map",
     "index.html": "/jardimdeefesto/index.html",
-    "static/css/main.d712ad0b.chunk.css.map": "/jardimdeefesto/static/css/main.d712ad0b.chunk.css.map",
-    "static/js/2.dd5b318e.chunk.js.LICENSE.txt": "/jardimdeefesto/static/js/2.dd5b318e.chunk.js.LICENSE.txt",
+    "static/css/main.1865e79b.chunk.css.map": "/jardimdeefesto/static/css/main.1865e79b.chunk.css.map",
+    "static/js/2.84b7f897.chunk.js.LICENSE.txt": "/jardimdeefesto/static/js/2.84b7f897.chunk.js.LICENSE.txt",
     "static/media/MoedaEfesto.04be3be2.png": "/jardimdeefesto/static/media/MoedaEfesto.04be3be2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.65920b3a.js",
-    "static/js/2.dd5b318e.chunk.js",
-    "static/css/main.d712ad0b.chunk.css",
-    "static/js/main.4efb26c0.chunk.js"
+    "static/js/runtime-main.72e93c74.js",
+    "static/js/2.84b7f897.chunk.js",
+    "static/css/main.1865e79b.chunk.css",
+    "static/js/main.7defba05.chunk.js"
   ]
 }
