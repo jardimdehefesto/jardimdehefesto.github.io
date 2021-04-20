@@ -1,6 +1,7 @@
 // import logo from '../static/MoedaEfesto.png';
 import './App.css';
 import Home from './Home';
+import Teste from './teste'
 import EmBreve from './EmBreve';
 import {
   // BrowserRouter as Router,
@@ -27,6 +28,9 @@ function App() {
         <Switch>
         <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/teste">
+            <Teste />
           </Route>
           <Route path="/">
             <EmBreve />
