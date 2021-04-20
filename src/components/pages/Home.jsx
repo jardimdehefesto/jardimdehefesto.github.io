@@ -35,7 +35,7 @@ function Home() {
   )
   return (
     <div className="Home">
-      <Container>
+      <Container> 
         <div 
         
         className="grid-container"
