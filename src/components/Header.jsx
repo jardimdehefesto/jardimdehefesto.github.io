@@ -13,15 +13,15 @@ const theme = createMuiTheme({
     palette: {
       primary: {
         // light: será calculada com base em palette.primary.main,
-        main: '#ff4400',
+        main: 'rgba(245, 166, 35, 1)',
         // dark: será calculada com base em palette.primary.main,
         // contrastText: será calculada para contrastar com palette.primary.main
       },
       secondary: {
-        light: '#0066ff',
-        main: '#0044ff',
+        // light: '#0066ff',
+        main: '#1e2021',
         // dark: será calculada com base palette.secondary.main,
-        contrastText: '#ffcc00',
+        contrastText: '#ff4400',
       },
       // Usado por `getContrastText()` para maximizar o contraste entre
       // o plano de fundo e o texto.
@@ -31,6 +31,12 @@ const theme = createMuiTheme({
       // Por exemplo, mude de Red 500 para Red 300 ou Red 700.
       tonalOffset: 0.2,
     },
+    text: {
+        primary: "rgba(0, 0, 0, 0.87)",
+        // secondary: "rgba(0, 0, 0, 0.54)",
+        // disabled: "rgba(0, 0, 0, 0.38)",
+        // hint: "rgba(0, 0, 0, 0.38)"
+    }
   });
 
 function Header() {
@@ -39,6 +45,7 @@ function Header() {
         <ThemeProvider theme={theme}>
         <section class="banner">
             <img class="banner-img" src="/jardimdeefesto/ms-icon-310x310.png" />
+            <h1 class='banner-text'>Jardim de Efesto</h1>
         </section>
         <nav class="navbar">
             <ul class="navbar-list">

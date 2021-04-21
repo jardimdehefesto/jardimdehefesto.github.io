@@ -2,8 +2,15 @@ header{
     height: 15rem;
     background-color: #1e2021;
 }
+.banner {
+    display: inline-flex;
+}
 .banner-img{
     max-height: 12rem;
+}
+.banner-text{
+    margin-top: 3rem;
+    font-size: 5rem;
 }
 .navbar-list {
     display: inline-flex;
