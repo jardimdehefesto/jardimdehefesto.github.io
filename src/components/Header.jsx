@@ -10,7 +10,7 @@ import {
 function Header() {
     return (
         <nav class="navbar">
-            <ul>
+            <ul class="navbar-list">
                 <li>
                     <Link to="/home">Home</Link>
                 </li><li>
