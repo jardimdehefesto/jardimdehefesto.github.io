@@ -9,6 +9,10 @@ import {
 
 function Header() {
     return (
+        <header>
+        <section class="banner">
+            <img class="banner-img" src="/jardimdeefesto/ms-icon-310x310.png" />
+        </section>
         <nav class="navbar">
             <ul class="navbar-list">
                 <li>
@@ -18,6 +22,7 @@ function Header() {
                 </li>
             </ul>
         </nav>
+        </header>
     );
 };
 
