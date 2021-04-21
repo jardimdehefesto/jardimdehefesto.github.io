@@ -1,6 +1,7 @@
 import './Home.css';
-import { Container } from '@material-ui/core'
-import Footer from '../Footer'
+import { Container } from '@material-ui/core';
+import Footer from '../Footer';
+import Theme from "./../Theme";
 import {
   // BrowserRouter as Router,
   // HashRouter,
@@ -9,8 +10,11 @@ import {
   Link
 } from "react-router-dom";
 
+const theme = Theme.palette;
+
 function Home() {
   const imgBase = "/jardimdeefesto/image/";
+  // var informacaBarraca = JSON.parse('./info.json')
   const informacaBarraca = [
     {id: 1, title: 'Titulo Teste', content: 'Welcome to the jungle baby', img: "produtoTeste.jpg", url: "teste"},
     {id: 2, title: 'Titulo Teste2', content: 'Welcome to the jungle baby2', img: "produtoTeste.jpg", url: "teste"},
@@ -34,7 +38,7 @@ function Home() {
     </>
   )
   return (
-    <div className="Home">
+    <div className="Home" >
       <Container> 
         <div 
         

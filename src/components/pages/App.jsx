@@ -1,7 +1,8 @@
 // import logo from '../static/MoedaEfesto.png';
 import './App.css';
+import Header from "./../Header"
 import Home from './Home';
-import Teste from './teste'
+import Teste from './teste';
 import EmBreve from './EmBreve';
 import {
   // BrowserRouter as Router,
@@ -15,13 +16,7 @@ function App() {
   return (
     <HashRouter basename='/'>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </ul>
-        </nav>
+        <Header />
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
