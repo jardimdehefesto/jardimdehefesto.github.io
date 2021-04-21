@@ -26,6 +26,8 @@ function App() {
           </Route>
           <Route path="/teste">
             <Teste />
+          </Route><Route path="/agora">
+            <Teste />
           </Route>
           <Route path="/">
             <EmBreve />

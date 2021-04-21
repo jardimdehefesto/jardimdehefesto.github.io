@@ -12,7 +12,9 @@ function Header() {
         <nav class="navbar">
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/home">Home</Link>
+                </li><li>
+                    <Link to="/agora">Ágora</Link>
                 </li>
             </ul>
         </nav>

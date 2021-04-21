@@ -1,7 +1,7 @@
 import './Home.css';
 import { Container } from '@material-ui/core';
 import Footer from '../Footer';
-import Theme from "./../Theme";
+// import Theme from "./../Theme";
 import {
   // BrowserRouter as Router,
   // HashRouter,
@@ -10,7 +10,7 @@ import {
   Link
 } from "react-router-dom";
 
-const theme = Theme.palette;
+// const theme = Theme.palette;
 
 function Home() {
   const imgBase = "/jardimdeefesto/image/";
