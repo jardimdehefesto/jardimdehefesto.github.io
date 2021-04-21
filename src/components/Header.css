@@ -3,11 +3,15 @@ header{
     background-color: #1e2021;
 }
 .banner-img{
-    max-height: 13rem;
+    max-height: 12rem;
 }
 .navbar-list {
     display: inline-flex;
 }
 .navbar-list li {
-    padding: 5px;
+    margin-top: 0px;
+    padding: 2px;
+}
+.MuiButtonBase-root {
+    background-color: rgba(0, 0, 0, 0.54) !important;
 }
