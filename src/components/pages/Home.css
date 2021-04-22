@@ -4,8 +4,8 @@
     padding: 10px;
   }
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 20px;
     font-size: 30px;
     text-align: center;
@@ -15,4 +15,11 @@
   }
   .Home{
     background-color: rgba(245, 166, 35, 1);
+  }
+  .grid-item h3 {
+    color:black;
+    font-size: 3rem;
+  }
+  .grid-item p {
+    color:black;
   }

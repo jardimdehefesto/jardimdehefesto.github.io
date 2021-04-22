@@ -30,8 +30,8 @@ function Home() {
         <Link to={'./' + barraca.url}>
         <div className="grid-item" key={barraca.id}>
           <img class="grid-img" alt="" src={imgBase + barraca.img} />
-          {barraca.title}<br/>
-          {barraca.content}
+          <h3>{barraca.title}</h3>
+          <p>{barraca.content}</p>
         </div>
         </Link>
       )}
