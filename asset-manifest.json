@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/jardimdeefesto/static/css/main.b2b88d20.chunk.css",
-    "main.js": "/jardimdeefesto/static/js/main.17c8b323.chunk.js",
-    "main.js.map": "/jardimdeefesto/static/js/main.17c8b323.chunk.js.map",
+    "main.css": "/jardimdeefesto/static/css/main.c9a7e6db.chunk.css",
+    "main.js": "/jardimdeefesto/static/js/main.c9203043.chunk.js",
+    "main.js.map": "/jardimdeefesto/static/js/main.c9203043.chunk.js.map",
     "runtime-main.js": "/jardimdeefesto/static/js/runtime-main.af78fa81.js",
     "runtime-main.js.map": "/jardimdeefesto/static/js/runtime-main.af78fa81.js.map",
     "static/js/2.1d39f847.chunk.js": "/jardimdeefesto/static/js/2.1d39f847.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.a3d43cf4.chunk.js": "/jardimdeefesto/static/js/3.a3d43cf4.chunk.js",
     "static/js/3.a3d43cf4.chunk.js.map": "/jardimdeefesto/static/js/3.a3d43cf4.chunk.js.map",
     "index.html": "/jardimdeefesto/index.html",
-    "static/css/main.b2b88d20.chunk.css.map": "/jardimdeefesto/static/css/main.b2b88d20.chunk.css.map",
+    "static/css/main.c9a7e6db.chunk.css.map": "/jardimdeefesto/static/css/main.c9a7e6db.chunk.css.map",
     "static/js/2.1d39f847.chunk.js.LICENSE.txt": "/jardimdeefesto/static/js/2.1d39f847.chunk.js.LICENSE.txt",
     "static/media/MoedaEfesto.04be3be2.png": "/jardimdeefesto/static/media/MoedaEfesto.04be3be2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.af78fa81.js",
     "static/js/2.1d39f847.chunk.js",
-    "static/css/main.b2b88d20.chunk.css",
-    "static/js/main.17c8b323.chunk.js"
+    "static/css/main.c9a7e6db.chunk.css",
+    "static/js/main.c9203043.chunk.js"
   ]
 }
