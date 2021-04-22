@@ -44,7 +44,7 @@ function Header() {
         <header>
         <ThemeProvider theme={theme}>
         <section class="banner">
-            <img class="banner-img" src="/jardimdeefesto/ms-icon-310x310.png" />
+            <img class="banner-img" alt="" src="/jardimdeefesto/ms-icon-310x310.png" />
             <h1 class='banner-text'>Jardim de Efesto</h1>
         </section>
         <nav class="navbar">

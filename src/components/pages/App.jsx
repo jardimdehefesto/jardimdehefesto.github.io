@@ -4,12 +4,13 @@ import Header from "./../Header"
 import Home from './Home';
 import Teste from './teste';
 import EmBreve from './EmBreve';
+import ElementalJoias from './ElementalJoias';
 import {
   // BrowserRouter as Router,
   HashRouter,
   Switch,
   Route,
-  Link
+  //Link
 } from "react-router-dom";
 
 function App() {
@@ -26,8 +27,12 @@ function App() {
           </Route>
           <Route path="/teste">
             <Teste />
-          </Route><Route path="/agora">
+          </Route>
+          <Route path="/agora">
             <Teste />
+          </Route>
+          <Route path="/elementaljoias">
+            <ElementalJoias />
           </Route>
           <Route path="/">
             <EmBreve />
