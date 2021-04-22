@@ -1,24 +1,48 @@
-header{
-    height: 15rem;
+header {
+    min-height: 15rem;
     background-color: #1e2021;
 }
+
 .banner {
     display: inline-flex;
 }
-.banner-img{
+
+.banner-img {
     max-height: 12rem;
 }
-.banner-text{
+
+.banner-text {
     margin-top: 3rem;
     font-size: 5rem;
+    color:tomato;
 }
+
 .navbar-list {
     display: inline-flex;
 }
+
 .navbar-list li {
     margin-top: 0px;
     padding: 2px;
 }
+
 .MuiButtonBase-root {
     background-color: rgba(0, 0, 0, 0.54) !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .banner-text {
+        margin-top: 3rem;
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-text {
+        margin-top: 3rem;
+        font-size: 3.8rem;
+    }
+    .banner-img {
+        max-height: 8rem;
+    }
 }

@@ -23,3 +23,17 @@
   .grid-item p {
     color:black;
   }
+
+  @media only screen and (max-width: 800px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
+    }
+  }@media only screen and (max-width: 600px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto;
+      padding: 10px;
+    }
+  }
