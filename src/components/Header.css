@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(./static/fonts/Cinzel-VariableFont_wght.ttf);
+}
+
 header {
     min-height: 15rem;
     background-color: #1e2021;
@@ -14,7 +19,10 @@ header {
 .banner-text {
     margin-top: 3rem;
     font-size: 5rem;
+    font-weight: 500;
     color:tomato;
+    font-family: Cinzel , serif;
+    margin-left: 2rem;
 }
 
 .navbar-list {
