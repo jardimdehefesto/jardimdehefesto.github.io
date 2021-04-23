@@ -13,7 +13,7 @@ import {
 // const theme = Theme.palette;
 
 function Home() {
-  const imgBase = "/jardimdeefesto/image/";
+  const imgBase = "/jardimdehefesto/image/";
   // var informacaBarraca = JSON.parse('./info.json')
   const informacaBarraca = [
     {id: 1, title: 'Elemental', content: 'Jóias e Variedades', img: "elemental.jpg", url: "./elementaljoias"},
