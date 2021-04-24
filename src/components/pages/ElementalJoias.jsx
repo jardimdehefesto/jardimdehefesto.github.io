@@ -7,7 +7,7 @@ function ElementalJoias(){
         return(
             <div>
                 <h2>Loja Elemental</h2>
-                <p>Se por acaso não abrir automaticamente a página acesse <a href="https://lojaelemental.com.br/">Link da Elemental</a></p>
+                <p>Se por acaso não abrir automaticamente a página acesse <a target='_blank' rel="noreferrer" href="https://lojaelemental.com.br/">Link da Elemental</a></p>
             </div>
         );
     

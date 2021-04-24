@@ -1,21 +1,60 @@
 import "./Pages.css";
 import React from "react";
-import { Container, Paper } from '@material-ui/core';
+import { Container, Paper, Avatar, Card, CardContent, CardActions, Typography, Button } from '@material-ui/core';
+import { makeStyles } from "@material-ui/core/styles"
+
+const useStyles = makeStyles((theme) => ({
+    small: {
+        width: theme.spacing(3),
+        height: theme.spacing(3),
+    },
+    large: {
+        width: theme.spacing(7),
+        height: theme.spacing(7),
+    },
+    paper: {
+        backgroundColor: "rgba(255, 229, 112, 0.651)",
+        marginTop: "20px",
+        padding: '10px',
+    },
+    title: {
+        fontSize: '3rem',
+    }
+})
+
+
+);
 
 function Sobre() {
+
+    const classes = useStyles();
 
     return (
         <React.Fragment>
             <div className="background-amarelo full-height">
                 <Container>
-                    
-                        <Paper className="paperSobre">
-                            <h1>Lorem Ipsun</h1>
+                    <div>
+                        <Paper className={classes.paper}>
+                            <h1>Sobre a Iniciativa</h1>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed tellus at nisl dapibus mattis vitae non odio. Vivamus ante est, dignissim ac finibus quis, viverra pretium turpis. Proin vitae venenatis velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed risus augue, dignissim id laoreet vitae, convallis quis lorem. In posuere ex neque, non pharetra ante mollis non.
-                    </p>
+                                A iniciativa Jardim de Hefésto foi criada para trazer os artesãos para o nosso espaço, como uma feira livre virtual onde eles podem ofertar seus produtos. Queremos levar a tecnologia aqueles que confeccionam itens tão mágicos para nós, criando um local onde  nasçam novas amizades, o apoio entre todos cresça e possamos levar itens exclusivos com alta qualidade a aqueles que não tinham conhecimento sobre.
+                            </p>
                         </Paper>
-                    
+                    </div>
+                    <Paper className={"paperSobre"}>
+                        <Typography className={classes.title} component="h1" >
+                            Quem somos:
+                        </Typography>
+                        <Card>
+                            <CardContent>
+                                <Avatar className={classes.large} alt="Conde Laus" src={'/jardimdehefesto/image/avatar/CondeLaus.jpg'} />
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Entre em contato</Button>
+                            </CardActions>
+                        </Card>
+                    </Paper>
+
                 </Container>
 
             </div>
