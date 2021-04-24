@@ -8,6 +8,8 @@ import {
     Link
 } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles"
+
 
 
 const theme = createMuiTheme({
@@ -27,6 +29,12 @@ const theme = createMuiTheme({
         primary: "rgba(0, 0, 0, 0.87)",
     }
 });
+
+const useStyles = makeStyles((theme) => ({
+    button: {
+        color: theme.palette.primary,
+    }
+}));
 
 function Header() {
     return (

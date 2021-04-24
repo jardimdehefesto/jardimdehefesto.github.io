@@ -19,6 +19,17 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         fontSize: '3rem',
+    },
+    miniCard: {
+        maxWidth: '15%',
+        display: 'grid',
+        gridTemplateColumns: ['auto', 'auto', 'auto', 'auto'],
+        textAlign: "center",
+    },
+    miniCardContent:{
+        display: 'flex',
+        alignItems: "center",
+        justifyContent: "center",
     }
 })
 
@@ -45,12 +56,14 @@ function Sobre() {
                         <Typography className={classes.title} component="h1" >
                             Quem somos:
                         </Typography>
-                        <Card>
-                            <CardContent>
+                        <Card className={classes.miniCard}>
+                            <CardContent className={classes.miniCardContent}>
                                 <Avatar className={classes.large} alt="Conde Laus" src={'/jardimdehefesto/image/avatar/CondeLaus.jpg'} />
                             </CardContent>
-                            <CardActions>
+                            <CardActions  className={classes.miniCardContent}>
+                                <a target="_blank" href="http://www.facebook.com">
                                 <Button size="small">Entre em contato</Button>
+                                </a>
                             </CardActions>
                         </Card>
                     </Paper>
