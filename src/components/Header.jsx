@@ -40,8 +40,12 @@ function Header() {
                     <ul class="navbar-list">
                         <li>
                             <Link to="/home"><Button color="primary">Home</Button></Link>
-                        </li><li>
+                        </li>
+                        <li>
                             <Link to="/agora"><Button color="primary">Ágora</Button></Link>
+                        </li>
+                        <li>
+                            <Link to="/sobre"><Button color="primary">Sobre Nós</Button></Link>
                         </li>
                     </ul>
                 </nav>

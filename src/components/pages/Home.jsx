@@ -1,4 +1,4 @@
-import './Home.css';
+import './Pages.css';
 import { Container } from '@material-ui/core';
 import Footer from '../Footer';
 import barracas from '../data/barracas'
@@ -29,7 +29,7 @@ function Home() {
     </>
   )
   return (
-    <div className="Home" >
+    <div className="background-amarelo" >
       <Container> 
         <div 
         

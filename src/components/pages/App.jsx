@@ -12,6 +12,7 @@ import {
   Route,
   //Link
 } from "react-router-dom";
+import Sobre from './Sobre';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/elementaljoias">
             <ElementalJoias />
+          </Route>
+          <Route path="/sobre">
+            <Sobre />
           </Route>
           <Route path="/">
             <EmBreve />

@@ -1,3 +1,7 @@
+h1{
+  font-size: 2rem;
+  font-weight: 600;
+}
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -21,7 +25,16 @@
     -webkit-transform: scale(1.2);
    transform: scale(1.2);
   }
-  .Home{
+  .paperSobre{
+    background-color: rgba(255, 229, 112, 0.651) !important;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .paperSobre h1{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  body{
     background-color: rgba(245, 166, 35, 1);
   }
   .grid-item h3 {
