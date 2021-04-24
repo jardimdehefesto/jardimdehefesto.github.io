@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jardimdehefesto/static/css/main.d9e5e463.chunk.css",
-    "main.js": "/jardimdehefesto/static/js/main.e6b791c2.chunk.js",
-    "main.js.map": "/jardimdehefesto/static/js/main.e6b791c2.chunk.js.map",
-    "runtime-main.js": "/jardimdehefesto/static/js/runtime-main.1da56f9c.js",
-    "runtime-main.js.map": "/jardimdehefesto/static/js/runtime-main.1da56f9c.js.map",
-    "static/js/2.aa577227.chunk.js": "/jardimdehefesto/static/js/2.aa577227.chunk.js",
-    "static/js/2.aa577227.chunk.js.map": "/jardimdehefesto/static/js/2.aa577227.chunk.js.map",
-    "static/js/3.fae0a3f5.chunk.js": "/jardimdehefesto/static/js/3.fae0a3f5.chunk.js",
-    "static/js/3.fae0a3f5.chunk.js.map": "/jardimdehefesto/static/js/3.fae0a3f5.chunk.js.map",
+    "main.css": "/jardimdehefesto/static/css/main.eaf7174e.chunk.css",
+    "main.js": "/jardimdehefesto/static/js/main.370362b4.chunk.js",
+    "main.js.map": "/jardimdehefesto/static/js/main.370362b4.chunk.js.map",
+    "runtime-main.js": "/jardimdehefesto/static/js/runtime-main.88e53baa.js",
+    "runtime-main.js.map": "/jardimdehefesto/static/js/runtime-main.88e53baa.js.map",
+    "static/js/2.c57194f5.chunk.js": "/jardimdehefesto/static/js/2.c57194f5.chunk.js",
+    "static/js/2.c57194f5.chunk.js.map": "/jardimdehefesto/static/js/2.c57194f5.chunk.js.map",
+    "static/js/3.8b3af361.chunk.js": "/jardimdehefesto/static/js/3.8b3af361.chunk.js",
+    "static/js/3.8b3af361.chunk.js.map": "/jardimdehefesto/static/js/3.8b3af361.chunk.js.map",
     "index.html": "/jardimdehefesto/index.html",
-    "static/css/main.d9e5e463.chunk.css.map": "/jardimdehefesto/static/css/main.d9e5e463.chunk.css.map",
-    "static/js/2.aa577227.chunk.js.LICENSE.txt": "/jardimdehefesto/static/js/2.aa577227.chunk.js.LICENSE.txt",
+    "static/css/main.eaf7174e.chunk.css.map": "/jardimdehefesto/static/css/main.eaf7174e.chunk.css.map",
+    "static/js/2.c57194f5.chunk.js.LICENSE.txt": "/jardimdehefesto/static/js/2.c57194f5.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/jardimdehefesto/static/media/Cinzel-VariableFont_wght.f1068981.ttf",
     "static/media/MoedaEfesto.04be3be2.png": "/jardimdehefesto/static/media/MoedaEfesto.04be3be2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1da56f9c.js",
-    "static/js/2.aa577227.chunk.js",
-    "static/css/main.d9e5e463.chunk.css",
-    "static/js/main.e6b791c2.chunk.js"
+    "static/js/runtime-main.88e53baa.js",
+    "static/js/2.c57194f5.chunk.js",
+    "static/css/main.eaf7174e.chunk.css",
+    "static/js/main.370362b4.chunk.js"
   ]
 }
