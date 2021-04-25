@@ -32,7 +32,7 @@ const theme = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
     button: {
-        color: theme.palette.primary,
+        color: 'rgba(245, 166, 35, 1)',
     }
 }));
 
