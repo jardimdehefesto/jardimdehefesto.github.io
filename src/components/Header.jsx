@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Header() {
+    const estilo = useStyles;
     return (
         <header>
             <ThemeProvider theme={theme}>
@@ -47,13 +48,13 @@ function Header() {
                 <nav class="navbar">
                     <ul class="navbar-list">
                         <li>
-                            <Link to="/home"><Button color="primary">Home</Button></Link>
+                            <Link to="/home"><Button className={estilo.button} color="primary">Home</Button></Link>
                         </li>
                         <li>
-                            <Link to="/agora"><Button color="primary">Ágora</Button></Link>
+                            <Link to="/agora"><Button className={estilo.button} color="primary">Ágora</Button></Link>
                         </li>
                         <li>
-                            <Link to="/sobre"><Button color="primary">Sobre Nós</Button></Link>
+                            <Link to="/sobre"><Button className={estilo.button} color="primary">Sobre Nós</Button></Link>
                         </li>
                     </ul>
                 </nav>

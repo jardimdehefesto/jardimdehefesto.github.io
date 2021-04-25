@@ -1,7 +1,8 @@
-import "./Pages.css";
+
 import React from "react";
-import { Container, Paper, Avatar, Card, CardContent, CardActions, Typography, Button } from '@material-ui/core';
+import { Container, Paper, Avatar, Card, CardContent, CardActions, Typography, Button, createMuiTheme } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles"
+
 
 const useStyles = makeStyles((theme) => ({
     small: {
@@ -16,20 +17,44 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "rgba(255, 229, 112, 0.651)",
         marginTop: "20px",
         padding: '10px',
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    paperSobre: {
+        display: 'flex',
     },
     title: {
         fontSize: '3rem',
+        textAlign: 'center',
+        fontWeight: '400',
+        paddingBottom: '20px',
+    },
+    cardTitle: {
+        color: "orange",
     },
     miniCard: {
-        maxWidth: '15%',
-        display: 'grid',
-        gridTemplateColumns: ['auto', 'auto', 'auto', 'auto'],
-        textAlign: "center",
-    },
-    miniCardContent:{
+        width: '200px',
         display: 'flex',
+        flexWrap: 'wrap',
+        textAlign: "center",
+        backgroundColor: "rgba(102, 102, 102, 0.7)",
         alignItems: "center",
         justifyContent: "center",
+    },
+    miniCardContent: {
+        display: 'block',
+        alignItems: "center",
+        justifyContent: "center !important",
+        padding: "15px",
+    },
+    minicardPhoto: {
+        
+        width: "70px",
+        height: "70px",
+    },
+    miniCardButton: {
+        backgroundColor: "rgba(255, 229, 112, 0.6)",
+        color: "#FFFFFF",
     }
 })
 
@@ -46,7 +71,7 @@ function Sobre() {
                 <Container>
                     <div>
                         <Paper className={classes.paper}>
-                            <h1>Sobre a Iniciativa</h1>
+                            <h1 className={classes.title}>Sobre a Iniciativa</h1>
                             <p>
                                 A iniciativa Jardim de Hefésto foi criada para trazer os artesãos para o nosso espaço, como uma feira livre virtual onde eles podem ofertar seus produtos. Queremos levar a tecnologia aqueles que confeccionam itens tão mágicos para nós, criando um local onde  nasçam novas amizades, o apoio entre todos cresça e possamos levar itens exclusivos com alta qualidade a aqueles que não tinham conhecimento sobre.
                             </p>
@@ -58,11 +83,15 @@ function Sobre() {
                         </Typography>
                         <Card className={classes.miniCard}>
                             <CardContent className={classes.miniCardContent}>
-                                <Avatar className={classes.large} alt="Conde Laus" src={'/jardimdehefesto/image/avatar/CondeLaus.jpg'} />
+                                <Avatar className={classes.minicardPhoto} alt="Conde Laus" src={'/jardimdehefesto/image/avatar/CondeLaus.jpg'} />
+
+                                <Typography className={classes.cardTitle} component="h2">
+                                    Conde Laus
+                                </Typography>
                             </CardContent>
-                            <CardActions  className={classes.miniCardContent}>
+                            <CardActions className={classes.miniCardContent}>
                                 <a target="_blank" href="http://www.facebook.com">
-                                <Button size="small">Entre em contato</Button>
+                                    <Button variant="contained" color="rgba(255, 229, 112, 0.6)" size="small">Entre em contato</Button>
                                 </a>
                             </CardActions>
                         </Card>
