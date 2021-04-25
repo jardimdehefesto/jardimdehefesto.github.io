@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Header() {
-    const estilo = useStyles;
+    const estilo = useStyles();
     return (
         <header>
             <ThemeProvider theme={theme}>
