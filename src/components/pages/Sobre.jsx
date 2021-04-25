@@ -73,7 +73,7 @@ function Sobre() {
                         <Paper className={classes.paper}>
                             <h1 className={classes.title}>Sobre a Iniciativa</h1>
                             <p>
-                                A iniciativa Jardim de Hefésto foi criada para trazer os artesãos para o nosso espaço, como uma feira livre virtual onde eles podem ofertar seus produtos. Queremos levar a tecnologia aqueles que confeccionam itens tão mágicos para nós, criando um local onde  nasçam novas amizades, o apoio entre todos cresça e possamos levar itens exclusivos com alta qualidade a aqueles que não tinham conhecimento sobre.
+                            O Jardim de Hefesto foi criado com o intuito de promover a produção artesanal em um espaço único como se fosse uma feira cultural onde os produtores possam ofertar seus objetos e material manufaturado. A intensão é levar a tecnologia àqueles que confeccionam itens tão mágicos para nós, criando um local onde nasçam novas amizades e haja um crescimento do apoio entre os participantes de forma a levar itens com qualidade única ao consumidor exigente de uma exclusividade.
                             </p>
                         </Paper>
                     </div>
