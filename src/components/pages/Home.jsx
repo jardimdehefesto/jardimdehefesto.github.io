@@ -14,7 +14,7 @@ import {
 // const theme = Theme.palette;
 var informacaBarraca = barracas
 function Home() {
-  const imgBase = "/jardimdehefesto/image/";
+  const imgBase = "/image/";
   const barracas = (
     <>
       {informacaBarraca.map((barraca)=>

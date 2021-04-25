@@ -83,7 +83,7 @@ function Sobre() {
                         </Typography>
                         <Card className={classes.miniCard}>
                             <CardContent className={classes.miniCardContent}>
-                                <Avatar className={classes.minicardPhoto} alt="Conde Laus" src={'/jardimdehefesto/image/avatar/CondeLaus.jpg'} />
+                                <Avatar className={classes.minicardPhoto} alt="Conde Laus" src={'/image/avatar/CondeLaus.jpg'} />
 
                                 <Typography className={classes.cardTitle} component="h2">
                                     Conde Laus
