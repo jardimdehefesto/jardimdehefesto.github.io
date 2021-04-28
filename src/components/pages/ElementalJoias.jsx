@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function ElementalJoias(){
     useEffect(() => {
-        window.open("https://lojaelemental.com.br/", "_blank");  }, []);
+        window.open("https://lojaelemental.com.br?Ref=20", "_blank");  }, []);
 
         return(
             <div>
