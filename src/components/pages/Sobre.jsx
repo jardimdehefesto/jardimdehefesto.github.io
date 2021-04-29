@@ -78,15 +78,15 @@ function Sobre() {
                             <Container maxWidth="md">
                                 <h1 className={classes.title}>Sobre a Iniciativa</h1>
                                 <p>
-                                    O site Jardim de Hefésto tem como objetivo reunir um conjunto de microempreendedores que oferecem os mais diversos produtos e serviços, como produção de jóias, velas, diário mágico dentre outros que servem ou favorecem direta ou indiretamente às pessoas que caminham pelo meio ocultista.
+                                O site Jardim de Hefesto tem como objetivo reunir um conjunto de microempreendedores que oferecem os mais diversos produtos e serviços, como produção de jóias, velas, diário mágico, dentre outras ferramentas mágicas que favorecem direta ou indiretamente as pessoas que trilham o caminho ocultista.
                             </p>
                                 <hr style={{ borderColor: 'rgba(0,0,0,0)' }} />
                                 <p>
-                                    Onde o Conde desempenha o papel de representante dos artesão, fazendo a ponte entre eles e o público.
+                                Como representante, Conde Lauds possibilita a ponte entre os profissionais artesãos e o público.
                             </p>
                                 <hr style={{ borderColor: 'rgba(0,0,0,0)' }} />
                                 <p>
-                                    Estamos em busca de indivíduos que produzam por prazer artístico ou mesmo profissionalmente, mas que ame o que faça, trazendo produtos únicos feitos com coração.
+                                O Jardim de Hefesto busca indivíduos que produzem por prazer artístico e profissionalmente e que amem o que fazem, desenvolvendo produtos e serviços únicos, feitos com o coração.
                             </p>
                             </Container>
                         </Paper>
