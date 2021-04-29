@@ -17,8 +17,12 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "rgba(255, 229, 112, 0.651)",
         marginTop: "20px",
         padding: '10px',
+        paddingTop: "50px",
+        paddingBottom: "50px",
         alignItems: "center",
         justifyContent: "center",
+        fontSize: '2rem',
+        textAlign: 'justify',
     },
     paperSobre: {
         display: 'flex',
@@ -48,14 +52,14 @@ const useStyles = makeStyles((theme) => ({
         padding: "15px",
     },
     minicardPhoto: {
-        
+
         width: "70px",
         height: "70px",
     },
     miniCardButton: {
         backgroundColor: "rgba(255, 229, 112, 0.6)",
         color: "#FFFFFF",
-    }
+    },
 })
 
 
@@ -71,10 +75,20 @@ function Sobre() {
                 <Container>
                     <div>
                         <Paper className={classes.paper}>
-                            <h1 className={classes.title}>Sobre a Iniciativa</h1>
-                            <p>
-                            O Jardim de Hefesto foi criado com o intuito de promover a produção artesanal em um espaço único como se fosse uma feira cultural onde os produtores possam ofertar seus objetos e material manufaturado. A intensão é levar a tecnologia àqueles que confeccionam itens tão mágicos para nós, criando um local onde nasçam novas amizades e haja um crescimento do apoio entre os participantes de forma a levar itens com qualidade única ao consumidor exigente de uma exclusividade.
+                            <Container maxWidth="md">
+                                <h1 className={classes.title}>Sobre a Iniciativa</h1>
+                                <p>
+                                    O site Jardim de Hefésto tem como objetivo reunir um conjunto de microempreendedores que oferecem os mais diversos produtos e serviços, como produção de jóias, velas, diário mágico dentre outros que servem ou favorecem direta ou indiretamente às pessoas que caminham pelo meio ocultista.
                             </p>
+                                <hr style={{ borderColor: 'rgba(0,0,0,0)' }} />
+                                <p>
+                                    Onde o Conde desempenha o papel de representante dos artesão, fazendo a ponte entre eles e o público.
+                            </p>
+                                <hr style={{ borderColor: 'rgba(0,0,0,0)' }} />
+                                <p>
+                                    Estamos em busca de indivíduos que produzam por prazer artístico ou mesmo profissionalmente, mas que ame o que faça, trazendo produtos únicos feitos com coração.
+                            </p>
+                            </Container>
                         </Paper>
                     </div>
                     <Paper className={"paperSobre"}>
