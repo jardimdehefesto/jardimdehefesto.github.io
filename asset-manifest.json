@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.22c442e6.chunk.css",
-    "main.js": "/static/js/main.f6c7dc06.chunk.js",
-    "main.js.map": "/static/js/main.f6c7dc06.chunk.js.map",
+    "main.css": "/static/css/main.d178919b.chunk.css",
+    "main.js": "/static/js/main.6aa35191.chunk.js",
+    "main.js.map": "/static/js/main.6aa35191.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4680ff8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.4680ff8c.js.map",
     "static/js/2.153fbd25.chunk.js": "/static/js/2.153fbd25.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0091025a.chunk.js": "/static/js/3.0091025a.chunk.js",
     "static/js/3.0091025a.chunk.js.map": "/static/js/3.0091025a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.22c442e6.chunk.css.map": "/static/css/main.22c442e6.chunk.css.map",
+    "static/css/main.d178919b.chunk.css.map": "/static/css/main.d178919b.chunk.css.map",
     "static/js/2.153fbd25.chunk.js.LICENSE.txt": "/static/js/2.153fbd25.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/static/media/Cinzel-VariableFont_wght.f1068981.ttf",
     "static/media/MoedaEfesto.04be3be2.png": "/static/media/MoedaEfesto.04be3be2.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.4680ff8c.js",
     "static/js/2.153fbd25.chunk.js",
-    "static/css/main.22c442e6.chunk.css",
-    "static/js/main.f6c7dc06.chunk.js"
+    "static/css/main.d178919b.chunk.css",
+    "static/js/main.6aa35191.chunk.js"
   ]
 }
