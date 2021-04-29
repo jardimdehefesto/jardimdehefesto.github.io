@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom: "50px",
         alignItems: "center",
         justifyContent: "center",
-        fontSize: '2rem',
-        textAlign: 'justify',
+        fontSize: '1.8rem',
+        // textAlign: 'justify',
     },
     paperSobre: {
         display: 'flex',
