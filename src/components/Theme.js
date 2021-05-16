@@ -63,14 +63,15 @@ export const AppHeader = styled.div`
 `
 export const Banner = styled.div `
     display: inline-flex;
-    width: 100%;
+    width: 100% !important;
     margin: 0px;
     padding: 0px;
 `
 
 export const BannerImg = styled.img `
-    min-width: 101%;
+    width: 103%;
     margin-left: -4px;
+    margin-top: -3%;
     padding: 0px;
     background-color: ${theme.palette.primary.light};
 `

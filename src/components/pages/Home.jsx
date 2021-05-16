@@ -2,7 +2,7 @@ import './Pages.css';
 import { Container } from '@material-ui/core';
 import Footer from '../Footer';
 import barracas from '../data/barracas'
-// import Theme from "./../Theme";
+
 import {
   // BrowserRouter as Router,
   // HashRouter,
@@ -11,7 +11,7 @@ import {
   Link
 } from "react-router-dom";
 
-// const theme = Theme.palette;
+
 var informacaBarraca = barracas
 function Home() {
   const imgBase = "/image/";

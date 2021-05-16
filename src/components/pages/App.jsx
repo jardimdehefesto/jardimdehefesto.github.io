@@ -39,7 +39,7 @@ function App() {
             <Sobre />
           </Route>
           <Route path="/">
-            <EmBreve />
+            <Home />
           </Route>
           <Route path="*">
             <Home />
