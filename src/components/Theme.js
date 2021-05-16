@@ -70,6 +70,8 @@ export const Banner = styled.div `
 
 export const BannerImg = styled.img `
     width: 103%;
+    max-height: 100vh;
+    object-fit: cover;
     margin-left: -4px;
     margin-top: -3%;
     padding: 0px;
@@ -92,4 +94,15 @@ export const NavbarListContainer = styled.div `
 export const NavbarList = styled.li `
     margin-top: 0px;
     padding: 2px;
+`
+export const Container = styled.div`
+  padding: 0 10% 0 10%;
+`
+export const Espacador = styled.hr`
+  height: 2rem;
+  border: none;
+`
+export const Texto = styled.p `
+    color: ${theme.text.primary};
+    font-size: 2rem;
 `

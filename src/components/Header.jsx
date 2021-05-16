@@ -18,11 +18,9 @@ function Header() {
     return (
         <Cabeca>
             <ThemeProvider theme={theme}>
-                <section className="banner">
-                    {/* <img class="banner-img" alt="" src="/ms-icon-150x150.png" />
-                    <h1 class='banner-text'>Jardim de Hefésto</h1> */}
+                
                     <BannerImg src={'/image/jardimdeHefestosombra.png'}/>
-                </section>
+                
                 <nav class="navbar">
                     <ul class="navbar-list">
                         <li>

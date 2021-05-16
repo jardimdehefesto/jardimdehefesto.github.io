@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./../Header"
 import Home from './Home';
 import Teste from './teste';
-import EmBreve from './EmBreve';
+import Agora from "./Agora";
 import ElementalJoias from './ElementalJoias';
 import {
   // BrowserRouter as Router,
@@ -30,7 +30,7 @@ function App() {
             <Teste />
           </Route>
           <Route path="/agora">
-            <Teste />
+            <Agora />
           </Route>
           <Route path="/elementaljoias">
             <ElementalJoias />
