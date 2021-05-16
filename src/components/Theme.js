@@ -16,6 +16,12 @@ export const theme = createMuiTheme({
             // dark: será calculada com base palette.secondary.main,
             contrastText: '#ff4400',
         },
+        dark: {
+            // light: será calculada com base em palette.primary.main,
+            main: 'rgba(0, 0, 0, 0.54)',
+            // dark: será calculada com base em palette.primary.main,
+            // contrastText: será calculada para contrastar com palette.primary.main
+        },
         // Usado por `getContrastText()` para maximizar o contraste entre
         // o plano de fundo e o texto.
         contrastThreshold: 3,
@@ -36,12 +42,14 @@ export const useStyles = makeStyles((theme) => ({
 
 export const Cabeca = styled.header`
     min-height: 15rem;
-    background-color: #1e2021;
+    background-color:  ${theme.palette.dark.light};
+    margin: 0px;
+    padding: 0px;
 `
 
 export const HeaderButton = styled(Button)`
     color: ${theme.palette.primary.main};
-    background-color: rgba(0, 0, 0, 0.54) !important;
+    background-color: ${theme.palette.dark.main} !important;
 `
 export const AppHeader = styled.div`
     background-color: #282c34;
@@ -52,14 +60,19 @@ export const AppHeader = styled.div`
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-  `
+`
 export const Banner = styled.div `
     display: inline-flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 `
 
 export const BannerImg = styled.img `
-    width: 100%;
+    min-width: 100%;
     height: 100%;
+    margin-left: -4px;
+    padding: 0px;
     background-color: ${theme.palette.primary.light};
 `
 
