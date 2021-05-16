@@ -69,8 +69,7 @@ export const Banner = styled.div `
 `
 
 export const BannerImg = styled.img `
-    min-width: 100%;
-    height: 100%;
+    min-width: 101%;
     margin-left: -4px;
     padding: 0px;
     background-color: ${theme.palette.primary.light};
