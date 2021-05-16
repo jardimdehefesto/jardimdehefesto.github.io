@@ -69,11 +69,13 @@ export const Banner = styled.div `
 `
 
 export const BannerImg = styled.img `
-    width: 103%;
-    max-height: 100vh;
-    object-fit: cover;
+    width: 100%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
     margin-left: -4px;
-    margin-top: -3%;
+    max-height: 80vh;
+    object-fit: cover;
     padding: 0px;
     background-color: ${theme.palette.primary.light};
 `
