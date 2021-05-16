@@ -19,7 +19,7 @@ function Header() {
         <Cabeca>
             <ThemeProvider theme={theme}>
                 
-                    <BannerImg src={'/image/jardimdeHefestosombra.png'}/>
+                    <BannerImg src={'/image/jardimdeHefesto.png'}/>
                 
                 <nav class="navbar">
                     <ul class="navbar-list">

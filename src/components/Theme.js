@@ -70,8 +70,6 @@ export const Banner = styled.div `
 
 export const BannerImg = styled.img `
     width: 100%;
-    max-height: 60vh;
-    object-fit: cover;
     padding: 0px;
     background-color: ${theme.palette.primary.light};
 `
