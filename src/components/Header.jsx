@@ -9,57 +9,37 @@ import {
 } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import { makeStyles } from "@material-ui/core/styles"
+import {theme, useStyles, HeaderButton, AppHeader, Cabeca, BannerImg} from "./Theme.js"
 
 
 
-const theme = createMuiTheme({
-    palette: {
-        primary: {
-            main: 'rgba(245, 166, 35, 1)',
-        },
-        secondary: {
-            main: '#1e2021',
-            contrastText: '#ff4400',
-        },
-        contrastThreshold: 3,
 
-        tonalOffset: 0.2,
-    },
-    text: {
-        primary: "rgba(0, 0, 0, 0.87)",
-    }
-});
-
-const useStyles = makeStyles((theme) => ({
-    button: {
-        color: 'rgba(245, 166, 35, 1)',
-    }
-}));
 
 function Header() {
     const estilo = useStyles();
     return (
-        <header>
+        <Cabeca>
             <ThemeProvider theme={theme}>
                 <section class="banner">
-                    <img class="banner-img" alt="" src="/ms-icon-150x150.png" />
-                    <h1 class='banner-text'>Jardim de Hefésto</h1>
+                    {/* <img class="banner-img" alt="" src="/ms-icon-150x150.png" />
+                    <h1 class='banner-text'>Jardim de Hefésto</h1> */}
+                    <BannerImg src={'/image/jardimdeHefestosombra.png'}/>
                 </section>
                 <nav class="navbar">
                     <ul class="navbar-list">
                         <li>
-                            <Link to="/home"><Button className={estilo.button} color="primary">Home</Button></Link>
+                            <Link to="/home"><HeaderButton>Home</HeaderButton></Link>
                         </li>
                         <li>
-                            <Link to="/agora"><Button className={estilo.button} color="primary">Ágora</Button></Link>
+                            <Link to="/agora"><HeaderButton>Ágora</HeaderButton></Link>
                         </li>
                         <li>
-                            <Link to="/sobre"><Button className={estilo.button} color="primary">Sobre Nós</Button></Link>
+                            <Link to="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Link>
                         </li>
                     </ul>
                 </nav>
             </ThemeProvider>
-        </header>
+        </Cabeca>
     );
 };
 
