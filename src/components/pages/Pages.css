@@ -35,7 +35,7 @@ h1{
     margin-bottom: 5px;
   }
   body{
-    background-color: rgba(245, 166, 35, 1);
+    background-color: rgba(245, 166, 35, 0.2);
   }
   .grid-item h3 {
     color:black;
