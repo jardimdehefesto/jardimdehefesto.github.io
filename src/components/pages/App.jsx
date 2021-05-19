@@ -13,10 +13,22 @@ import {
   //Link
 } from "react-router-dom";
 import Sobre from './Sobre';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+const trackingId = "G-2HT9GDFS5V"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId, {
+  siteSpeedSampleRate: 100,
+});
+const history = createBrowserHistory();
+// Initialize google analytics page view tracking
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <HashRouter history={history} basename='/'>
       <div>
         <Header />
 

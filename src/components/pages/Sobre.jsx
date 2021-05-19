@@ -104,7 +104,7 @@ function Sobre() {
                                 </Typography>
                             </CardContent>
                             <CardActions className={classes.miniCardContent}>
-                                <a target="_blank" href="http://www.facebook.com">
+                                <a target="_blank" rel="noreferrer" href="http://www.facebook.com">
                                     <Button variant="contained" color="rgba(255, 229, 112, 0.6)" size="small">Entre em contato</Button>
                                 </a>
                             </CardActions>
