@@ -11,6 +11,7 @@ import {
   Link
 } from "react-router-dom";
 
+var ReactGA = require('react-ga');
 
 var informacaBarraca = barracas
 function Home() {
@@ -18,6 +19,11 @@ function Home() {
   const barracas = (
     <>
       {informacaBarraca.map((barraca)=>
+        <ReactGA.OutboundLink
+        eventLabel={barraca.url}
+        to={barraca.url}
+        target="_blank"
+        >
         <Link to={'./' + barraca.url}>
         <div className="grid-item" key={barraca.id}>
           <img className="grid-img" alt="" src={imgBase + barraca.img} />
@@ -25,6 +31,7 @@ function Home() {
           <p>{barraca.content}</p>
         </div>
         </Link>
+        </ReactGA.OutboundLink>
       )}
     </>
   )
