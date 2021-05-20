@@ -1,6 +1,5 @@
-import { Link } from '@material-ui/core';
 import './Header.css';
-import {HeaderButton, Cabeca, BannerImg, NavbarListContainer, NavbarList} from "./Theme.js"
+import {HeaderButton, Cabeca, BannerImg, NavbarListContainer, NavbarList, Endereco} from "./Theme.js"
 
 
 
@@ -14,16 +13,16 @@ function Header() {
     return (
         <Cabeca>
                     <BannerImg src={'/image/jardimdeHefestosombra2.png'}/>
-                <NavbarListContainer class="navbar">
+                <NavbarListContainer>
                     <ul class="navbar-list">
                         <NavbarList>
-                            <Link to="/home"><HeaderButton>Home</HeaderButton></Link>
+                            <Endereco to="/home"><HeaderButton>Home</HeaderButton></Endereco>
                         </NavbarList>
                         <NavbarList>
-                            <Link to="/agora"><HeaderButton>Ágora</HeaderButton></Link>
+                            <Endereco to="/agora"><HeaderButton>Ágora</HeaderButton></Endereco>
                         </NavbarList>
                         <NavbarList>
-                            <Link to="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Link>
+                            <Endereco to="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Endereco>
                         </NavbarList>
                     </ul>
                 </NavbarListContainer>

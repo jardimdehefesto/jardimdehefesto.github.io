@@ -1,5 +1,6 @@
 import { createMuiTheme, makeStyles } from '@material-ui/core/styles';
-import { Button, Link } from '@material-ui/core';
+import { Button } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components/'
 
 export const theme = createMuiTheme({
