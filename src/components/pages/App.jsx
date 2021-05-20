@@ -17,9 +17,7 @@ import ReactGA from 'react-ga';
 import Footer from '../Footer';
 import { createBrowserHistory } from 'history';
 const trackingId = "G-2HT9GDFS5V"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId, {
-  siteSpeedSampleRate: 100,
-});
+ReactGA.initialize(trackingId);
 const history = createBrowserHistory();
 
 history.listen(location => {
