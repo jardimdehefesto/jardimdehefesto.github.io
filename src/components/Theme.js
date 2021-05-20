@@ -1,24 +1,24 @@
-import { createMuiTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
-import { Button } from '@material-ui/core';
+import { createMuiTheme, makeStyles } from '@material-ui/core/styles';
+import { Button, Link } from '@material-ui/core';
 import styled from 'styled-components/'
 
 export const theme = createMuiTheme({
     palette: {
         primary: {
             // light: será calculada com base em palette.primary.main,
-            main: 'rgba(245, 166, 35, 1)',
+            main: 'rgba(245, 166, 35, 1) !important',
             // dark: será calculada com base em palette.primary.main,
             // contrastText: será calculada para contrastar com palette.primary.main
         },
         secondary: {
             // light: será calculada com base palette.secondary.main,
-            main: '#1e2021',
+            main: '#1e2021 !important',
             // dark: será calculada com base palette.secondary.main,
-            contrastText: '#ff4400',
+            contrastText: '#ff4400 !important',
         },
         dark: {
             // light: será calculada com base em palette.primary.main,
-            main: 'rgba(0, 0, 0, 0.54)',
+            main: 'rgba(0, 0, 0, 0.54) !important',
             // dark: será calculada com base em palette.primary.main,
             // contrastText: será calculada para contrastar com palette.primary.main
         },
@@ -31,7 +31,7 @@ export const theme = createMuiTheme({
         tonalOffset: 0.2,
     },
     text: {
-        primary: "rgba(0, 0, 0, 0.87)",
+        primary: "rgba(0, 0, 0, 0.87) !important",
     }
 });
 export const useStyles = makeStyles((theme) => ({
@@ -83,7 +83,7 @@ export const BannerText = styled.h1 `
     margin-left: 2rem;
 `
 
-export const NavbarListContainer = styled.div `
+export const NavbarListContainer = styled.nav `
     display: inline-flex;
 `
 
@@ -101,4 +101,7 @@ export const Espacador = styled.hr`
 export const Texto = styled.p `
     color: ${theme.text.primary};
     font-size: 2rem;
+`
+export const Endereco = styled(Link)`
+
 `

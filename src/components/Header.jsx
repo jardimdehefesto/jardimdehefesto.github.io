@@ -1,40 +1,31 @@
 import './Header.css';
-import {
-    // BrowserRouter as Router,
-    // HashRouter,
-    // Switch,
-    // Route,
-    Link
-} from "react-router-dom";
-import { ThemeProvider } from '@material-ui/core/styles';
-import {theme, useStyles, HeaderButton, AppHeader, Cabeca, BannerImg} from "./Theme.js"
+import {HeaderButton, Cabeca, BannerImg, NavbarListContainer, NavbarList, Endereco} from "./Theme.js"
+
+
+
+
 
 
 
 
 
 function Header() {
-    const estilo = useStyles();
     return (
         <Cabeca>
-            <ThemeProvider theme={theme}>
-                
                     <BannerImg src={'/image/jardimdeHefestosombra2.png'}/>
-                
-                <nav class="navbar">
+                <NavbarListContainer class="navbar">
                     <ul class="navbar-list">
-                        <li>
-                            <Link to="/home"><HeaderButton>Home</HeaderButton></Link>
-                        </li>
-                        <li>
-                            <Link to="/agora"><HeaderButton>Ágora</HeaderButton></Link>
-                        </li>
-                        <li>
-                            <Link to="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Link>
-                        </li>
+                        <NavbarList>
+                            <Endereco to="/home"><HeaderButton>Home</HeaderButton></Endereco>
+                        </NavbarList>
+                        <NavbarList>
+                            <Endereco to="/agora"><HeaderButton>Ágora</HeaderButton></Endereco>
+                        </NavbarList>
+                        <NavbarList>
+                            <Endereco to="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Endereco>
+                        </NavbarList>
                     </ul>
-                </nav>
-            </ThemeProvider>
+                </NavbarListContainer>
         </Cabeca>
     );
 };

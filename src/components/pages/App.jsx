@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import Sobre from './Sobre';
 import ReactGA from 'react-ga';
+import Footer from '../Footer';
 const trackingId = "G-2HT9GDFS5V"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId, {
   siteSpeedSampleRate: 100,
@@ -22,37 +23,40 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
-    <HashRouter basename='/'>
-      <div>
-        <Header />
+    <>
+      <HashRouter basename='/'>
+        <div>
+          <Header />
 
-        {/* A <Switch> looks through its children <Route>s and
+          {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
-        <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/teste">
-            <Teste />
-          </Route>
-          <Route path="/agora">
-            <Agora />
-          </Route>
-          <Route path="/elementaljoias">
-            <ElementalJoias />
-          </Route>
-          <Route path="/sobre">
-            <Sobre />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route path="*">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </HashRouter>
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/teste">
+              <Teste />
+            </Route>
+            <Route path="/agora">
+              <Agora />
+            </Route>
+            <Route path="/elementaljoias">
+              <ElementalJoias />
+            </Route>
+            <Route path="/sobre">
+              <Sobre />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+            <Route path="*">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
+      </HashRouter>
+      <Footer />
+    </>
   );
 }
 

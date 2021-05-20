@@ -1,32 +1,37 @@
 import './Pages.css';
-import Footer from '../Footer';
-import barracas from '../data/barracas'
+// import barracas from '../data/barracas'
 import {Texto , Container, Espacador} from "./../Theme.js"
-import {
+// import {
   // BrowserRouter as Router,
   // HashRouter,
   // Switch,
   // Route,
-  Link
-} from "react-router-dom";
+//   Link
+// } from "react-router-dom";
 
 
 
-var informacaBarraca = barracas
+// var informacaBarraca = barracas
 // function Agora() {
 //   const imgBase = "/image/";
 //   const barracas = (
 //     <>
-//       {informacaBarraca.map((barraca)=>
-//         <Link to={'./' + barraca.url}>
-//         <div className="grid-item" key={barraca.id}>
-//           <img className="grid-img" alt="" src={imgBase + barraca.img} />
-//           <h3>{barraca.title}</h3>
-//           <p>{barraca.content}</p>
-//         </div>
-//         </Link>
-//       )}
-//     </>
+//     {informacaBarraca.map((barraca)=>
+//       <ReactGA.OutboundLink
+//       eventLabel={barraca.url}
+//       to={barraca.url}
+//       target="_blank"
+//       >
+//       <Link to={'./' + barraca.url}>
+//       <div className="grid-item" key={barraca.id}>
+//         <img className="grid-img" alt="" src={imgBase + barraca.img} />
+//         <h3>{barraca.title}</h3>
+//         <p>{barraca.content}</p>
+//       </div>
+//       </Link>
+//       </ReactGA.OutboundLink>
+//     )}
+//   </>
 //   )
 //   return (
 //     <div className="background-amarelo" >
