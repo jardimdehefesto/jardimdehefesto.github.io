@@ -24,13 +24,13 @@ function Home() {
         to={barraca.url}
         target="_blank"
         >
-        <Link to={'./' + barraca.url}>
+        
         
           <img className="grid-img" alt="" src={imgBase + barraca.img} />
           <h3>{barraca.title}</h3>
           <p>{barraca.content}</p>
         
-        </Link>
+        
         </ReactGA.OutboundLink>
         </div>
       )}
