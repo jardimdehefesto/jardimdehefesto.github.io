@@ -1,16 +1,7 @@
 import './Pages.css';
 import { Container } from '@material-ui/core';
 import barracas from '../data/barracas'
-
-import {
-  // BrowserRouter as Router,
-  // HashRouter,
-  // Switch,
-  // Route,
-  Link
-} from "react-router-dom";
-
-var ReactGA = require('react-ga');
+import ReactGA from 'react-ga';
 
 var informacaBarraca = barracas
 function Home() {
@@ -20,7 +11,7 @@ function Home() {
       {informacaBarraca.map((barraca)=>
       <div className="grid-item" key={barraca.id}>
         <ReactGA.OutboundLink
-        eventLabel={barraca.url}
+        label={'Barraca - '+barraca.url}
         to={barraca.url}
         target="_blank"
         >
