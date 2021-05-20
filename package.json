@@ -2,6 +2,7 @@
   "name": "jardimdehefesto",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "homepage": "https://jardimdehefesto.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
