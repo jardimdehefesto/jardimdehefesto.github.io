@@ -15,16 +15,23 @@ import {
 import Sobre from './Sobre';
 import ReactGA from 'react-ga';
 import Footer from '../Footer';
+import { createBrowserHistory } from 'history';
 const trackingId = "G-2HT9GDFS5V"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId, {
   siteSpeedSampleRate: 100,
 });
-ReactGA.pageview(window.location.pathname + window.location.search);
+const history = createBrowserHistory();
+
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
 
 function App() {
   return (
     <>
-      <HashRouter basename='/'>
+      <HashRouter basename='/' history={history}>
         <div>
           <Header />
 
