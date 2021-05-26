@@ -1,6 +1,6 @@
 import './Pages.css';
 import './Agora.css';
-import {Texto , Container, Espacador} from "./../Theme.js"
+import {Container, Espacador} from "./../Theme.js"
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 const postAgora = [
