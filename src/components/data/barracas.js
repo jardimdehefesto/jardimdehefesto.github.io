@@ -1,7 +1,7 @@
 
     var barracas =
     [
-    {"id": 1, "title": 'Elemental', "content": 'Jóias e Variedades', "img": "elemental.jpg", "url": "https://encurtador.com.br/fhlLO"},
+    {"id": 1, "title": 'Elemental', "content": 'Jóias e Variedades', "img": "elemental.jpg", "url": "https://bit.ly/elementaljoias"},
     //{"id": 1, "title": 'Elemental', "content": 'Jóias e Variedades', "img": "elemental.jpg", "url": "https://lojaelemental.com.br?Ref=20"},
     // {"id": 2, "title": "Titulo Teste2", "content": "Welcome to the jungle baby2", "img": "produtoTeste.jpg", "url": "teste"},
     // {"id": 3, "title": "Titulo Teste3", "content": "Welcome to the jungle baby3", "img": "produtoTeste.jpg", "url": "teste"},
@@ -13,4 +13,4 @@
 
     module.exports = barracas;
 
-    //testando https://www.encurtador.com.br
+    //testando bit.ly
