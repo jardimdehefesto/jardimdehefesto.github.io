@@ -112,13 +112,13 @@ export function Header() {
             <NavbarListContainer>
                 <NavbarListUnordened>
                     <NavbarList>
-                        <Link href="/"><HeaderButton>Home</HeaderButton></Link>
+                        <a href="/home"><HeaderButton>Home</HeaderButton></a>
                     </NavbarList>
                     <NavbarList>
-                        <Link href="/agora"><HeaderButton>Ágora</HeaderButton></Link>
+                        <a href="/agora"><HeaderButton>Ágora</HeaderButton></a>
                     </NavbarList>
                     <NavbarList>
-                        <Link href="/sobre"><HeaderButton>Sobre Nós</HeaderButton></Link>
+                        <a href="/sobre"><HeaderButton>Sobre Nós</HeaderButton></a>
                     </NavbarList>
                 </NavbarListUnordened>
             </NavbarListContainer>

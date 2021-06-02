@@ -53,7 +53,7 @@ const Endereco = styled.a`
     text-decoration: none;
   }
 `
-const LinkInterno = styled(Link)`
+const LinkInterno = styled.a`
   text-decoration: none;
   cursor: pointer;
   &:hover{
