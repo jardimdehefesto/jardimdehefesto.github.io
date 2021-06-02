@@ -14,9 +14,9 @@ export default function Agora({ posts }) {
       {
         posts.map(post => 
           <p>
-            <LinkInterno href={ `/${ post.slug }` }>
-              <Endereco>{ post.title } <br/> <div dangerouslySetInnerHTML={{ __html: post.content.slice(0,140) }} /> Continuar Lendo...</Endereco>
-            </LinkInterno>
+            <Endereco href={ `/${ post.slug }` }>
+              <div>{ post.title } <br/> <div dangerouslySetInnerHTML={{ __html: post.content.slice(0,140) }} /> Continuar Lendo...</div>
+            </Endereco>
           </p>
         )
       }
