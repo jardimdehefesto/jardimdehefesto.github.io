@@ -1,5 +1,5 @@
-
-import React from "react";
+import Link from 'next/link';
+import { Header } from "/components/Header.js"
 import { Container, Paper, Avatar, Card, CardContent, CardActions, Typography, Button } from '@material-ui/core';
 import { makeStyles } from "@material-ui/core/styles"
 
@@ -65,12 +65,12 @@ const useStyles = makeStyles((theme) => ({
 
 );
 
-function Sobre() {
-
+export default function Sobre() {
     const classes = useStyles();
 
     return (
-        <React.Fragment>
+        <>
+            <Header/>
             <div className="background-amarelo full-height">
                 <Container>
                     <div>
@@ -104,7 +104,7 @@ function Sobre() {
                                 </Typography>
                             </CardContent>
                             <CardActions className={classes.miniCardContent}>
-                                <a target="_blank" rel="noreferrer" href="http://www.facebook.com">
+                                <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100067437873548">
                                     <Button variant="contained" color="rgba(255, 229, 112, 0.6)" size="small">Entre em contato</Button>
                                 </a>
                             </CardActions>
@@ -114,7 +114,6 @@ function Sobre() {
                 </Container>
 
             </div>
-        </React.Fragment>
+        </>
     );
 }
-export default Sobre;
