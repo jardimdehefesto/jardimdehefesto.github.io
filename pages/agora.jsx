@@ -15,6 +15,7 @@ export default function Agora({ posts }) {
       {
         posts.map(post => 
           <p>
+            <hr></hr>
             <Endereco href={ `/${ post.slug }` }>
               <div>{ post.title } <br/> 
               <ReactMarkdown>
@@ -22,6 +23,7 @@ export default function Agora({ posts }) {
                 </ReactMarkdown>
                 Continuar Lendo...
                 </div>
+                
             </Endereco>
           </p>
         )
