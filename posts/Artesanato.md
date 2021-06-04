@@ -4,7 +4,7 @@ author: Conde
 date: '2021-06-03T02:26:09-0300'
 ---
 
-#Artesanato
+# Artesanato
 
 Substantivo masculino
 
@@ -13,7 +13,7 @@ Substantivo masculino
 
 [Definições de Oxford Languages](https://languages.oup.com/google-dictionary-pt)
 
-###Artesão
+### Artesão
 Artesão é a pessoa que faz a mão objetos de uso freqüente na comunidade. Seu aparecimento foi resultado de pressão da necessidade sobre a inteligência aliada ao poder de inovar, possibilitando também ligar o passado ao presente, mediante a linguagem; possibilitou as gerações mais novas receber das mais velhas, suas técnicas e demais experiências acumuladas.
 
 **_Atualmente há uma grande procura por produtos artesanais voltados ao mundo místico/exotérico por serem mais pesonalizados, de forma a englobarem os paradigmas dos clientes de forma exclusiva._**
@@ -29,7 +29,7 @@ Mas com a mecanização da indústria o artesão é identificado como aquele que
 
 >"É importante salientar que se constituiu entre os pesquisadores uma certa estereotipia no sentido de que a grande maioria dos estudos sobre cultura popular versa sobre atividades artísticas e/ou religiosas. Há uma razão para isso, entretanto. Na verdade, essas esferas da atividade social, entre outras (por exemplo, magia e feitiçaria), são estratégicas para o estudo da cultura, na medida em que são constituídas socialmente com instâncias de reflexão e ação simbólica por excelência." (ARANTES, p.59)
 
-Faz-se necesssário informar algumas distinções entre a palavras usadas de maneira incorreta:
+Faz-se necessário informar algumas distinções entre a palavras usadas de maneira incorreta:
 
 *  molde (gabarito), que é forma, o padrão que significa regularidade. Com molde se produzem objetos iguais ou cópias, sem originalidade alguma. 
 *  uniformidade. Embora padronizada, cada peça feita à mão é única, não se confunde com nenhuma outra, nem da mesma espécie, ainda que tenha sido elaborada no mesmo dia e pela mesma pessoa.
@@ -57,9 +57,11 @@ Não podemos mais relacionar o artesanato apenas às áreas distantes dos grande
 **Point da Arte** [**História do Artesanato**](https://pointdaarte.webnode.com.br/news/a-historia-do-artesanato/) 
 **Gabriela Cabral.** [**«Artesanato»**](http://www.brasilescola.com/artes/artesanato.htm) Consultado em 18 de outubro de 2014 
 **Machado, Juliana Porto.** [**Missões**](https://periodicos.unipampa.edu.br/index.php/Missoes/article/view/1035), Revista de Ciências Humanas e Sociais, vol 2, nº 2. set-dez de 2016. ISSN 2447-0244 
-** www.eba.ufmg.br **
+**www.eba.ufmg.br**
 
 Hppies:
-** https://pt.wikipedia.org/wiki/Hippie **
-** https://www.stoodi.com.br/blog/historia/movimento-hippie/ **
-** https://www.preparaenem.com/sociologia/paz-amor.htm **
+**https://pt.wikipedia.org/wiki/Hippie**
+
+**https://www.stoodi.com.br/blog/historia/movimento-hippie/**
+
+**https://www.preparaenem.com/sociologia/paz-amor.htm**

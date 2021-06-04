@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { getAllPosts } from '/services/api.js';
 import { Header } from "/components/Header.js"
 import styled from 'styled-components'
-import markdown from '/services/markdown.js';
+import Markdown from '/services/markdown.js';
+import ReactMarkdown from 'react-markdown'
 
 export default function Agora({ posts }) {
   return (
@@ -15,7 +16,12 @@ export default function Agora({ posts }) {
         posts.map(post => 
           <p>
             <Endereco href={ `/${ post.slug }` }>
-              <div>{ post.title } <br/> <div dangerouslySetInnerHTML={{ __html: post.content.slice(0,140) }} /> Continuar Lendo...</div>
+              <div>{ post.title } <br/> 
+              <ReactMarkdown>
+                {post.content.slice(0,140)}
+                </ReactMarkdown>
+                Continuar Lendo...
+                </div>
             </Endereco>
           </p>
         )
