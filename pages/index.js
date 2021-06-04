@@ -2,6 +2,7 @@ import { Header } from "/components/Header.js"
 import styled from 'styled-components'
 import Link from 'next/link';
 import barracas from "/data/barracas.js"
+import PropagandaLateral from "/components/PropagandaLateral.js"
 
 
   var informacaBarraca = barracas
@@ -12,7 +13,7 @@ export default function Index() {
     <>
       {informacaBarraca.map((barraca) =>
         <div key={barraca.id}>
-          <Endereco label={barraca.title + " - " + barraca.url} href={barraca.url} target="_blank">
+          <Endereco label={barraca.title + " - " + barraca.url} href={barraca.url} target="_blank" rel="noopener noreferrer" >
 
 
 
@@ -39,7 +40,7 @@ export default function Index() {
         </BarracaGrid>
 
       </Container>
-
+      <PropagandaLateral/>
     </>
   )
 }
