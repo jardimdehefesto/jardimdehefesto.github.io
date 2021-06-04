@@ -11,4 +11,4 @@ Estava a pouco tempo em uma imensa depressão e sem vontade de viver quando este
 Este projeto me fez repensar muito sobre mim e o que posso fazer para melhorar o mundo, foi quando decidi melhorar meus conteúdos e levar apoio a quem precisar com meu conhecimento.
 Espero que o jardim seja um local acolhedor e ajude neste momento tão difícil a todos, pois estou fazendo com muito carinho.
 
-ps: Francisco me perdoe pelo post fora de contexto, salve a sagrada paçoquinha
+ps: Um salve ao Francisco e um salve a sagrada paçoquinha
