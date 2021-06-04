@@ -4,7 +4,6 @@ author: Conde
 date: '2021-06-03T02:26:09-0300'
 ---
 
-# Artesanato
 
 Substantivo masculino
 
@@ -55,8 +54,11 @@ Não podemos mais relacionar o artesanato apenas às áreas distantes dos grande
 
 
 **Point da Arte** [**História do Artesanato**](https://pointdaarte.webnode.com.br/news/a-historia-do-artesanato/) 
+
 **Gabriela Cabral.** [**«Artesanato»**](http://www.brasilescola.com/artes/artesanato.htm) Consultado em 18 de outubro de 2014 
+
 **Machado, Juliana Porto.** [**Missões**](https://periodicos.unipampa.edu.br/index.php/Missoes/article/view/1035), Revista de Ciências Humanas e Sociais, vol 2, nº 2. set-dez de 2016. ISSN 2447-0244 
+
 **www.eba.ufmg.br**
 
 Hppies:
