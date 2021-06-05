@@ -3,7 +3,7 @@ author: Alberto
 date: 2021-06-05T09:46:47-0300
 ---
 
-# Oficina de Desenvolvimento de Fluso Energético
+# Oficina de Desenvolvimento de Fluxo Energético
 
 ![ODFE - Oficina de desenvolvimento de Fluxo energético](/image/posts/odfe.jpg)
 
