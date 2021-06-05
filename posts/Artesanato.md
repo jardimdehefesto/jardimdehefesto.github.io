@@ -1,7 +1,7 @@
 ---
 title: Artesanato
 author: Conde
-date: '2021-06-03T02:26:09-0300'
+date: '2021-06-03T02:27:07-0300'
 ---
 
 
