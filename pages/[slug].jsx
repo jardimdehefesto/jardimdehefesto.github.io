@@ -10,7 +10,7 @@ export default function Page({ post }) {
     <>
     <Header/>
     <Container>
-    <h1>{ post.title }</h1>
+    <Titulo>{ post.title }</Titulo>
       <p>{ post.author } · { post.date }</p>
       <div dangerouslySetInnerHTML={{ __html: post.content }} />
     </Container>
@@ -71,7 +71,9 @@ export function getStaticPaths() {
 const Container = styled.div`
   padding: 0 10vw 0 10vw;
 `
+const Titulo = styled.h1`
 
+`
 const Endereco = styled.a`
   text-decoration: none;
   cursor: pointer;
