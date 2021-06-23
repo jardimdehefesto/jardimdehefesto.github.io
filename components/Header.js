@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Button } from '@material-ui/core';
-import Link from 'next/link';
 import Head from 'next/head';
 
 
@@ -91,7 +90,7 @@ const Banner = styled.div `
 const BannerImg = styled.img `
   width: 100%;
   padding: 0px;
-  background-color: ${({theme}) => theme.primary};
+  background-color: rgba(245, 166, 35, 1);
 `
 
 const BannerText = styled.h1 `

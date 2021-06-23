@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 const theme = {
 
-      primary:'rgba(245, 166, 35, 1) !important',
+      primary:'#cce6f3 !important',
       secondary: '#1e2021 !important',
       contrastText: '#ff4400 !important',
       textPrimary: "rgba(0, 0, 0, 0.87) !important",
