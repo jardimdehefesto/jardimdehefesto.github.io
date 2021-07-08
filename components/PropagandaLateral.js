@@ -17,6 +17,7 @@ var num = 0
 
 export default function PropagandaLateral() {
     
+    if(propagandas[0] !== "0"){
     return (
         <>
       <div className="PropagandaLateral">
@@ -24,4 +25,12 @@ export default function PropagandaLateral() {
       </div>
       </>
     );
+    }
+    else{
+      return(
+      <>
+      
+      </>
+      )
+    }
   }

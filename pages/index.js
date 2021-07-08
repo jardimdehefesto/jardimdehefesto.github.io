@@ -16,10 +16,11 @@ export default function Index() {
           <Endereco label={barraca.title + " - " + barraca.url} href={barraca.url} target="_blank" rel="noopener noreferrer" >
 
 
-
+            <BarracaItem>
             <BarracaImg className="grid-img" alt="" src={imgBase + barraca.img} />
             <BarracaTitulo>{barraca.title}</BarracaTitulo>
             <BarracaTexto>{barraca.content}</BarracaTexto>
+            </BarracaItem>
 
 
           </Endereco>
@@ -33,9 +34,9 @@ export default function Index() {
 
       <Container>
         <BarracaGrid>
-          <BarracaItem>
+          
             {barracas}
-          </BarracaItem>
+
 
         </BarracaGrid>
 
